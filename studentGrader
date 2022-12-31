@@ -1,0 +1,61 @@
+public class gradeSorter {
+    // this is incomplete as i still dont understand the concept
+    //not connected to mentors yet to ask help
+
+    
+    private class studentDetails{
+    private String Fname;
+    private String Lname;
+    private String course;
+    
+    
+        public void setFname(String Fname) {
+            this.Fname = Fname;
+        }
+
+        public void setLname(String Lname) {
+            this.Lname = Lname;
+        }
+
+        public void setCourse(String course) {
+            this.course = course;
+        }
+
+        public String getFname() {
+            return Fname;
+        }
+
+        public String getLname() {
+            return Lname;
+        }
+
+        public String getCourse() {
+            return course;
+        }
+        
+
+    }
+    
+    private class english{
+        double termPaper, midterm,finalExam;
+        double finalMark=(termPaper*0.3)+(midterm*0.3)+(finalExam*0.4);
+    }
+    
+    private class science{
+        double attendance, project, midterm,finalExam;
+        double finalMark=(attendance*0.1)+(project*0.3)+(midterm*0.3)+(finalExam*0.3);
+  
+    }
+    
+    private class maths{
+        double q1,q2,q3,q4,q5;
+        double quizAvg=(q1+q2+q3+q4+q5)/5;
+        
+        double test1,test2,finalExam;
+    }
+    
+    public static void main(String[] args) {
+        
+        
+    }
+}
